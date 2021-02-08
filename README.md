@@ -4,7 +4,6 @@
 `React`
 `TypeScript`
 `Styled Components`
-`Graph CMS`
 `ESLint`
 
 ## Getting Started
