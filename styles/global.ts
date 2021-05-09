@@ -15,10 +15,10 @@ export const titleBold = "700 26px 'Roboto', sans-serif";
 
 export const Global = createGlobalStyle`
   html {
-    background-color: ${backgroundColour};
+    background: linear-gradient(${backgroundColour} 0%, #000 100%);
     overflow-x: hidden;
     min-height: 600px;
-    width: 100%;
+    width: 100%
   }
 
   body {

@@ -1,0 +1,315 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item component matches snapshot 1`] = `
+Array [
+  .c0 {
+  font: 700 26px 'Roboto',sans-serif;
+  margin: 75px 0 25px;
+}
+
+<h2
+    className="c0"
+  >
+    Recent Transactions
+  </h2>,
+  .c1 {
+  background: #0A152B;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 75px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.c2 p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.c2 .subtext {
+  color: #888888;
+  font: 400 12px 'Roboto',sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.c2 .value {
+  color: #FF5252;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.c3 p {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.c3 .subtext {
+  color: #888888;
+  font: 400 12px 'Roboto',sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.c3 .value {
+  color: #8EDD5D;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <p>
+          Trainline
+        </p>
+        <p
+          className="subtext"
+        >
+          Travel
+        </p>
+      </div>
+      <div
+        className="c3"
+      >
+        <p
+          className="subtext"
+        >
+          Sep 15th 2017 9:30:00 am
+        </p>
+        <p
+          className="value"
+        >
+          10
+        </p>
+      </div>
+    </div>
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <p>
+          Trainline
+        </p>
+        <p
+          className="subtext"
+        >
+          Travel
+        </p>
+      </div>
+      <div
+        className="c3"
+      >
+        <p
+          className="subtext"
+        >
+          Sep 15th 2017 9:30:00 am
+        </p>
+        <p
+          className="value"
+        >
+          10
+        </p>
+      </div>
+    </div>
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <p>
+          Trainline
+        </p>
+        <p
+          className="subtext"
+        >
+          Travel
+        </p>
+      </div>
+      <div
+        className="c3"
+      >
+        <p
+          className="subtext"
+        >
+          Sep 15th 2017 9:30:00 am
+        </p>
+        <p
+          className="value"
+        >
+          10
+        </p>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`List View component matches snapshot 1`] = `
+.c0 {
+  background: #0A152B;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 75px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.c1 p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.c1 .subtext {
+  color: #888888;
+  font: 400 12px 'Roboto',sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.c1 .value {
+  color: #FF5252;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.c2 p {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.c2 .subtext {
+  color: #888888;
+  font: 400 12px 'Roboto',sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.c2 .value {
+  color: #8EDD5D;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <p>
+      Trainline
+    </p>
+    <p
+      className="subtext"
+    >
+      Travel
+    </p>
+  </div>
+  <div
+    className="c2"
+  >
+    <p
+      className="subtext"
+    >
+      Sep 15th 2017 9:30:00 am
+    </p>
+    <p
+      className="value"
+    >
+      10
+    </p>
+  </div>
+</div>
+`;
