@@ -1,10 +1,23 @@
-## Next JS, TypeScript Starter
+## Bud Technical Test
 
-`Next JS`
-`React`
-`TypeScript`
-`Styled Components`
-`ESLint`
+Extended from my personal Next JS / React boilerplate <br/>
+repo: github.com/robinojw/next-ts-starter
+
+Note:
+Next JS uses it's own webpack config by default but see `next.config.js` <br/>
+for my custom config.
+
+Please note babel is a necessary quirk to use styled components in conjunction<br/>
+with Next JS. Production is still transpiled with the configuration in<br/>
+`next.config.js`.
+
+Live url visible at: https://robinw.co.uk/bud
+
+`Next JS`<br/>
+`React`<br/>
+`TypeScript`<br/>
+`Styled Components`<br/>
+`ESLint`<br/>
 
 ## Getting Started
 
@@ -19,6 +32,7 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
