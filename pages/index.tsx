@@ -1,9 +1,8 @@
 import {Wrapper} from '../styles/global';
-import React, {useState, useEffect, FunctionComponent} from 'react';
+import React, {useState, FunctionComponent} from 'react';
 import styled from 'styled-components';
 
 import {Header} from '../components/header';
-import {useFetch} from '../hooks/fetch';
 import {ListView} from '../components/list_view';
 import {Transaction, UserData} from '../models/page_content';
 import {sortSmallest} from '../components/drop_down';
@@ -37,11 +36,9 @@ type HomeProps = {
 }
 
 const Home: FunctionComponent<HomeProps> = ({ content }) => {
-  const [list, setList] = useState<Array<Transaction>>();
-
-  useEffect(() => {
-    setList(sortSmallest(content.transactions));
-  }, []);
+  const [list, setList] = useState<Array<Transaction>>(
+    sortSmallest(content.transactions)
+  );
 
   function handleChange(list: Array<Transaction>) {
     setList([...list]);
@@ -50,23 +47,17 @@ const Home: FunctionComponent<HomeProps> = ({ content }) => {
   return (
     <>
       <Wrapper>
-        {!list ? (
-          <div>Loading Content!</div>
-        ) : (
-          <>
-            <Header
-              image={mockImage}
-              setList={handleChange}
-              transactions={list}
-            />
-            <Info>
-              <h2>{content.provider.title}</h2>
-              <p>{content.provider.description}</p>
-              <p className="code">{content.provider.sort_code}</p>
-            </Info>
-            <ListView title="Recent Transactions" transactions={list} />
-          </>
-        )}
+        <Header
+          image={mockImage}
+          setList={handleChange}
+          transactions={list}
+        />
+        <Info>
+          <h2>{content.provider.title}</h2>
+          <p>{content.provider.description}</p>
+          <p className="code">{content.provider.sort_code}</p>
+        </Info>
+        <ListView title="Recent Transactions" transactions={list} />
       </Wrapper>
     </>
   );

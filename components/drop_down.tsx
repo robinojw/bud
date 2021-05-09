@@ -21,9 +21,9 @@ export const DropDown: FunctionComponent<DropDownProps> = ({
   transactions,
   setList,
 }) => {
-  function handleChange(event) {
-    if (!event.target.value) return;
-    switch (event.target.value) {
+  function selectChange(event) {
+    const value = Number(event.target.value);
+    switch (value) {
       case -1:
         setList(sortSmallest(transactions));
         break;
@@ -34,14 +34,14 @@ export const DropDown: FunctionComponent<DropDownProps> = ({
         setList(sortRecent(transactions));
         break;
       default:
-        return;
+        setList([]);
         break;
     }
   }
 
   return (
     <div>
-      <Select onChange={handleChange}>
+      <Select onChange={selectChange}>
         <option value={-1}>Smallest Transactions</option>
         <option value={1}>Largest Transactions</option>
         <option value={0}>Most Recent</option>
