@@ -2,7 +2,6 @@ const path = require('path');
 const webpack = require('webpack');
 const ClosureCompilerPlugin = require('closure-webpack-plugin');
 
-
 module.exports = {
   future: {
     webpack5: true,
