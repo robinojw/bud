@@ -22,7 +22,7 @@ module.exports = {
     minimize: true,
     minimizer: [
       new ClosureCompilerPlugin({
-        mode: 'STANDARD',
+        mode: 'AGGRESSIVE_BUNDLE',
         childCompilations: true
       }, {
         externs: [path.resolve(__dirname, 'dist', 'externs.js')],
