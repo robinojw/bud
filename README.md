@@ -11,7 +11,7 @@ Please note babel is a necessary quirk to use styled components in conjunction<b
 with Next JS. Production is still transpiled with the configuration in<br/>
 `next.config.js`.
 
-Live url visible at: https://robinw.co.uk/bud
+Live url visible at: https://bud-technical-test.vercel.app/
 
 `Next JS`<br/>
 `React`<br/>
