@@ -1,4 +1,4 @@
-## Bud Technical Test
+## React/Next Monzo clone
 
 Extended from my personal Next JS / React boilerplate <br/>
 repo: github.com/robinojw/next-ts-starter
